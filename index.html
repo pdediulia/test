@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+
+    <!--*****HEADER**AND**NAVBAR*****-->
+
+    <header>
+    <img src="img/header.png" alt="">
+    <div class="container">
+        <div class="row hidden-xs hidden-sm">
+            <div class="col-lg-3 col-md-3 block-left">
+                <img src="img/logo.png">      
+            </div>
+            <div class="col-lg-6 col-md-4 text-left">
+                    <p><span>Умный факторинг</span> для развивающихся<br> компани малого и среднего бизнеса</p>
+            </div>
+            <div class="col-lg-3 col-md-4 contacts">
+                <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>8-800-775-69-70</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">info@factoring-networtk.ru</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row hidden-lg hidden-md">
+            <div class="col-sm-6 col-xs-5">
+                <img src="img/logo.png">
+            </div>
+            <div class="col-sm-6 col-xs-7">
+                <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>8-800-775-69-70</li>
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">info@factoring-networtk.ru</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="#">Финансовые решения</a></li>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown">Бизнес инструменты</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Подключение к Электронному документообороту</a></li>
+                            <li><a href="#">Оценка Контрагента</a></li>
+                            <li><a href="#">Управление Дебеторской задолженностью</a></li>
+                        </ul>                    
+                    </li>
+                    <li><a href="#">Для инвесторов</a></li>
+                </ul>
+            </div> 
+        </div>
+    </nav>
+  </header>
+
+  <!--*****BANER**AND**CARUSEL*****-->
+
+  <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+  
+  <!-- Indicators--> 
+    <ol class="carousel-indicators hidden-xs hidden-sm">
+        <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+    </ol>
+  
+  <!-- Wrapper for slides--> 
+    <div class="carousel-inner">
+        <div class="item active">
+              <img src="img/slide.jpg" alt="...">
+              <div class="carousel-caption">
+                  <h3 class="text-uppercase">Открой возможности для<br>роста бизнеса уже сейчас</h3>
+                  <p>Мы предлогаем комплекс услуг, повышающих удобство<br>ведения бизнеса.</p>
+                  <a class="btn btn-default text-uppercase" href="#" role="button">Получить деньги</a>
+                  <a class="text-left" href="#">Что такое факторинг?</a>
+              </div>
+        </div>
+        <div class="item">
+              <img src="img/slide.jpg" alt="...">
+              <div class="carousel-caption">
+                  <h3 class="text-uppercase">Открой возможности для<br>роста бизнеса уже сейчас</h3>
+                  <p>Мы предлогаем комплекс услуг, повышающих удобство<br>ведения бизнеса.</p>
+                  <a class="btn btn-default text-uppercase" href="#" role="button">Получить деньги</a>
+                  <a class="text-left" href="#">Что такое факторинг?</a>
+              </div>
+        </div>
+        <div class="item">
+              <img src="img/slide.jpg" alt="...">
+              <div class="carousel-caption">
+                  <h3 class="text-uppercase">Открой возможности для<br>роста бизнеса уже сейчас</h3>
+                  <p>Мы предлогаем комплекс услуг, повышающих удобство<br>ведения бизнеса.</p>
+                  <a class="btn btn-default text-uppercase" href="#" role="button">Получить деньги</a>
+                  <a class="text-left" href="#">Что такое факторинг?</a>
+              </div>
+        </div>
+     </div>
+
+  <!--Controls--> 
+      <a class="left carousel-control hidden-xs hidden-sm" href="#carousel-example-generic1" data-slide="prev">
+          <img class="" src="img/left.png" alt="">
+      </a>
+      <a class="right carousel-control hidden-xs hidden-sm" href="#carousel-example-generic1" data-slide="next">
+          <img src="img/right.png" alt="">
+      </a>
+  </div>
+
+  <!--*****INFORMATION*****-->
+
+  <div class="container information">
+      <div class="section-header">
+          <h2 class="text-center">Удобный и простой способ получить деньги</h2>
+      </div>
+      <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+              <img class="center-block" src="img/icon1.png">
+              <h4 class="text-center">Разумная цена</h4>
+              <p class="text-center"><small>Мы по разумной цене предоставляем<br>услуги, которые действительно<br>способствуют успеху в развитии Вашего<br> бизнеса</small></p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+               <img class="center-block" src="img/icon2.png">
+               <h4 class="text-center">Реальные сроки</h4>
+              <p class="text-center"><small>Мы устанавливаем реальные сроки<br>по рассмотрению заявок Клиентов<br> и соблюдаем их</small></p>
+           </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+              <img class="center-block" src="img/icon3.png">
+               <h4 class="text-center">Электронный факторинг</h4>
+              <p class="text-center"><small>Мы активно используем в работе с<br>контрагентами юридически значимый<br> документооборот, что позволяет нашим<br>партнерам получить все преимущества<br> электронного факторинга</small></p>
+          </div>
+      </div>
+  </div>
+
+  <!--*****CONDITIONS*****-->
+
+  <div class="conditions" >
+      <div class="container">
+          <div class="section-header">
+              <h2 class="text-center">Условия финансирования</h2>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                  <img class="center-block" src="img/con_icon1.png">
+                  <h4 class="text-center text-uppercase">Отсрочка платежа</h4>
+                  <p class="text-center">До 120 календарных дней</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                  <img class="center-block" src="img/con_icon2.png">
+                  <h4 class="text-center text-uppercase">Льготный период<br> ожидания</h4>
+                  <p class="text-center">До 60 календарных дней</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                   <img class="center-block" src="img/con_icon3.png">
+                  <h4 class="text-center text-uppercase">Размер<br>финансирования</h4>
+                  <p class="text-center">До 95% от суммы поставки</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!--*****SOLVE*****-->
+
+   <div class="solve" >
+       <div class="container">
+          <div class="section-header">
+               <h2 class="text-left text-uppercase">Global factoring network<br>
+                    Обязательно решит вашу задачу</h2> 
+           </div>
+           <p class="text-left"><b>Вы пытаетесь увеличить Ваш бизнес, но отсутствуют идеи где<br> взять средства?</b> У нас есть решения! Global Factoring Network - это<br> инновационный &laquo;умный&raquo; факторинг для развивающихся компаний<br> малого и среднего бизнеса.</p>
+           <div class="row row1" style="text-align:left;">
+               <div class="col-lg-12">
+                   <div class="factoring">
+                       <img src="img/businesswoman_icon1.png">
+                       <h4 class="text-uppercase">Финансирование с регрессом</h4>
+                       <p>Эффективно управляй поставками и<br>деньгами без отсрочек оплаты дебиторов<br>и контрагентов.</p>
+                   </div>
+               </div>
+           </div>
+           <div class="row row2" style="text-align:left;">
+               <div class="col-lg-12">
+                   <div class="factoring">
+                       <img src="img/businesswoman_icon2.png">
+                       <h4 class="text-uppercase">Финансирование без регресса</h4>
+                       <p>Уже сейчас получи до 95% от суммы<br> поставки товара с отсрочкой платежа.</p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+  <!--*****CONTENT**TEXT*****-->
+
+  <div class="content">
+      <div class="container">
+          <div class="section-header">
+              <h2 class="text-left"><span>Мы предлагаем вам воспользоваться всеми<br> преимуществами финансового нетворкинга -</span><br> комплексного эффективного решения в сфере финансирования<br> бизнеса, страхования риска не платежа и управления дебеторсской<br> задолженностью.</h2>
+          </div>
+      </div>
+  </div>
+
+  <!--*****SEO*****-->
+  <div class="seo">
+
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-2">
+                  <h3>Мы такие же как и Вы. Мы понимаем все аспекты Вашего бизнеса и готовы сделать его больше уже сегодня.</h3>
+                  <p>Команда Global Factoring Network имеет значительный опыт на ранке российского Факторинга и предлагает профессиональный сервис, превосходящий самые смелые ожидания.</p>
+                    <p class="autor">CEO Global Factoring Network,<br>
+                     Примаченко Алексей </p>
+                    <img src="img/logo-seo.png" alt="">
+              </div>
+          </div>
+          <div class="row hidden-xs hidden-sm">
+              <div class="col-lg-4 col-lg-offset-6 col-md-4 col-md-offset-6"></div>
+          </div>
+      </div>
+  </div>
+
+  <!--*****PARTNER*****-->
+
+  <div class="partner">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="text-center">Мы активно развиваем бизнес с успешными компаниями</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-justify">
+                <img src="img/bg-partner1.jpg" alt="">
+                <img src="img/bg-partner2.jpg" alt="">
+                <img src="img/bg-partner3.jpg" alt="">
+                <img src="img/bg-partner4.jpg" alt="">
+                <img src="img/bg-partner5.jpg" alt="">
+            </div>
+        </div>
+    </div>  
+  </div>
+
+  <!--*****COMMENTS*****-->
+
+  <div class="comments">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+   
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+              <div class="item active">
+                  <div class="carousel-caption">
+                      <h3 class="text-center">Мы активно развиваем бизнес с успешными компаниями</h3>
+                      <div class="row hidden-xs">
+                          <div class="col-lg-6 col-md-6 col-sm-8 text-left">
+                              <p class="par"><i>Факторинговые решения, предлагаемые Global Factoring Network, являются удобными, технологичными и всегда соответствуют нашим амбициозным запросам.Сотруднечество с таким надежным финансовым партнером позволяет бизнесу нашей компании выйти на совершенно новый качественный уровень развития.</i></p>
+                              <p class="auter">Константин Вагин<br>ген директор Инносвет</p>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-4 text-left">
+                              <p class="par"><i>В лице Global Factoring Network мы нашли серьезного предсказуемого партнера для компаний нашей группы.</i></p>
+                              <p class="auter">Владимир Семернин<br>Президент ФД Солид</p>
+                          </div>                   
+                      </div>
+                      <div class="row">
+                          <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                              <p class="par"><i>Факторинговые решения, предлагаемые Global Factoring Network, являются удобными, технологичными и всегда соответствуют нашим амбициозным запросам.Сотруднечество с таким надежным финансовым партнером позволяет бизнесу нашей компании выйти на совершенно новый качественный уровень развития.</i></p>
+                              <p class="auter">Константин Вагин<br>ген директор Инносвет</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="carousel-caption">
+                      <h3 class="text-center">Мы активно развиваем бизнес с успешными компаниями</h3>
+                      <div class="row hidden-xs">
+                          <div class="col-lg-6 col-md-6 col-sm-8 text-left">
+                              <p class="par"><i>Факторинговые решения, предлагаемые Global Factoring Network, являются удобными, технологичными и всегда соответствуют нашим амбициозным запросам.Сотруднечество с таким надежным финансовым партнером позволяет бизнесу нашей компании выйти на совершенно новый качественный уровень развития.</i></p>
+                              <p class="auter">Константин Вагин<br>ген директор Инносвет</p>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-4 text-left">
+                              <p class="par"><i>В лице Global Factoring Network мы нашли серьезного предсказуемого партнера для компаний нашей группы.</i></p>
+                              <p class="auter">Владимир Семернин<br>Президент ФД Солид</p>
+                          </div>                   
+                      </div>
+                      <div class="row">
+                           <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                              <p class="par"><i>В лице Global Factoring Network мы нашли серьезного предсказуемого партнера для компаний нашей группы.</i></p>
+                              <p class="auter">Владимир Семернин<br>Президент ФД Солид</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>-->
+              <img src="img/comments-left.png" alt="">
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <img src="img/comments-right.png" alt="">
+          <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>-->
+          </a>
+      </div>
+  </div>
+
+<!--*****PHONE*****-->
+
+  <div class="phone">
+      <div class="container">
+          <div class="section-header">
+              <h2 class="text-center">Хотите узнать стоимость услуг?<br><span class="call text-uppercase">Звоните!</span>  <span class="light">8-800-775-69-70</span></h2>
+          </div>
+      </div>
+  </div>
+
+  <!--*****KNOWLEDGE*****-->
+
+  <div class="container knowledge">
+      <div class="section-header">
+          <h2 class="text-center">Что нужно знать о факторинге?</h2>
+      </div>
+      <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <img class="center-block" src="img/knowledge_icon1.png">
+              <h4 class="text-center">100 000 <i class="fa fa-rub" aria-hidden="true"></i></h4>
+              <p class="text-center"><small>Размер дебиторской задолженности</small></p>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+              <h4 class="text-center text-uppercase time">24 часа</h4>
+              <img class="center-block hidden-xs hidden-sm" src="img/knowledge-shape.png">
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2">
+              <img class="center-block" src="img/knowledge_icon2.png">
+              <h4 class="text-center">90 000 <i class="fa fa-rub" aria-hidden="true"></i></h4>
+              <p class="text-center"><small>Получение первого финансирования (платежа)</small></p>
+           </div>
+           <div class="col-lg-2 col-md-2 col-sm-2">
+              <h4 class="text-center text-uppercase time">До 60 дней</h4>
+              <img class="center-block hidden-xs hidden-sm" src="img/knowledge-shape1.png">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+              <img class="center-block" src="img/knowledge_icon3.png">
+               <h4 class="text-center">8 000 <i class="fa fa-rub" aria-hidden="true"></i></h4>
+              <p class="text-center"><small>Получение окончательного расчета (второго платежа)</small></p>
+          </div>
+      </div>
+  </div>
+
+  <!--*****FORM*****-->
+
+  <div class="form">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 col-lg-offset-5 col-md-6 col-md-offset-5 col-sm-5 col-sm-offset-3">
+                  <div class="section-header">
+                      <h2 class="text-left">Остались вопросы?</h2>
+                  </div>
+                  <p>Оставьте заявку и мы расскажем<br>о факторинге <span class="text-uppercase">все!</span></p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-lg-offset-5 col-md-4 col-md-offset-5 col-sm-5 col-sm-offset-3">
+                  <form>
+                      <div class="form-group">
+                          <label for="exampleInputEmail1"></label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ваш телефон">
+                      </div>
+                      <button type="submit" class="btn btn-default">Заказать обратный звонок</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!--*****FOOTER*****-->
+
+  <footer>
+      <img src="img/header.png" alt="">
+      <div class="wrapper">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-5 col-md-4 col-sm-3">
+                  <img src="img/logo.png">
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-6">
+                  <ul class="text-left">
+                      <li><i class="fa fa-phone" aria-hidden="true"></i>8-800-775-69-70</li>
+                      <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">info@factoring-networtk.ru</a></li>
+                      <li><i class="fa fa-map-marker" aria-hidden="true"></i>Москва, 123007, Хорошовское шоссе 32А</li>
+                  </ul>  
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-3">
+                  <a href="#">О компании</a><br>
+                  <a href="#" class="social social-icon-in"></a>
+                  <a href="#" class="social social-icon-ok"></a>
+                  <a href="#" class="social social-icon-fb"></a>
+                  <a href="#" class="social social-icon-vk"></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="line">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <p>&copy; Global Factoring Network 2016</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>document.write('<script src="http://'
+    + (location.host || 'localhost').split(':')[0]
+    + ':35729/livereload.js"></'
+    + 'script>')</script>
+
+  </body>
+</html>
